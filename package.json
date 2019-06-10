@@ -35,7 +35,10 @@
       "plugin:vue/essential",
       "@vue/standard"
     ],
-    "rules": {},
+    "rules": {
+      "no-console": "off",
+      "semi": "off"
+    },
     "parserOptions": {
       "parser": "babel-eslint"
     }

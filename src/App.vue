@@ -1,29 +1,18 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
+    <h1>美团外卖项目</h1>
+    <h4>注意：</h4>
+    <p>1.public里面有images文件夹用来保存图片（也可以引用用在线图片）</p>
+    <p>2.设置ESlint规则在package.json里面的rules</p>
+    <p>3.css样式生成默认是scss也可以使用其他的（less stylus?...）可以自行安装</p>
+    <p>4.使用git提交的时候，切换到自己的分支哦！</p>
   </div>
 </template>
 
+<script>
+
+</script>
+
 <style lang="scss">
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-#nav {
-  padding: 30px;
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
-}
+
 </style>
